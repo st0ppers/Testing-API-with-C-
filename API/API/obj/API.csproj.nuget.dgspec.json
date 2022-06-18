@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Coding\\c#api\\API\\API\\API.csproj": {}
+    "D:\\Coding\\c#api\\Testing-API-with-C-\\API\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\Coding\\c#api\\API\\API\\API.csproj": {
+    "D:\\Coding\\c#api\\Testing-API-with-C-\\API\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coding\\c#api\\API\\API\\API.csproj",
+        "projectUniqueName": "D:\\Coding\\c#api\\Testing-API-with-C-\\API\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\Coding\\c#api\\API\\API\\API.csproj",
+        "projectPath": "D:\\Coding\\c#api\\Testing-API-with-C-\\API\\API\\API.csproj",
         "packagesPath": "C:\\Users\\alexs\\.nuget\\packages\\",
-        "outputPath": "D:\\Coding\\c#api\\API\\API\\obj\\",
+        "outputPath": "D:\\Coding\\c#api\\Testing-API-with-C-\\API\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,24 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
